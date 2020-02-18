@@ -25,7 +25,7 @@ class Artist
      Song.all.select {|song| self} #selecting all songs from specific artirts
   end 
     
-  def self.song_count #correct syntax calling self on the method. 
+  def self.song_count #correct syntax calling self on the method.
     Song.all.count 
   end 
   
